@@ -1,0 +1,232 @@
+.blogContainer a:visited, .controlsContainer a:visited {
+    color: #000;
+}
+
+body {
+    background-color: #f6f6f6;
+}
+
+.blogContainer {
+    padding-top: 60px;
+    padding-bottom: 40px;
+    width: 50%;
+    height: 100%;
+    margin: auto;
+}
+
+.blog {
+    font-size: 12pt;
+    box-shadow: none;
+}
+
+.blog:hover {
+    transform: none;
+}
+
+.postContent {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100hv;
+    background-image: url(images/post-6-mid.jpg);
+}
+
+header nav a {
+    color: #444;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+#logo {
+    background-image: url(images/logo.svg);
+}
+
+.navContainer {
+    background-color: #fff;
+}
+
+.navContainer.scrolled {
+  background-color: rgba(255,255,255,.9) !important;
+}
+
+.lineBreak {
+    height: 25px;
+}
+
+.postContent h2 {
+    font-size: 30pt;
+}
+
+.postContent h3 {
+    float: left;
+    margin-right: 46px;
+}
+
+#cite {
+    font-family: playfair-display;
+    font-style: italic;
+    font-size: 15pt;
+    letter-spacing: .5px;
+}
+
+#share {
+    color: #000;
+}
+
+#share span {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#share a {
+    color: #000;
+}
+
+#share a:hover {
+    color: #6b6b6b;
+}
+
+.commentsContainer {
+    padding-top: 100px;
+    background-color: #fff;
+    height: 600px;
+}
+
+.comments {
+    width: 50%;
+    margin: auto;
+}
+
+.comments h2, .message h2 {
+    font-family: playfair-display;
+    font-weight: bold;
+    font-size: 20pt;
+    color: #000;
+    margin-bottom: 50px;
+}
+
+.comments h3 {
+    color: #000;
+    font-size: 10pt;
+    font-family: montserrat;
+    text-transform: uppercase;
+}
+
+.comments h3:first-child {
+    text-transform: capitalize;
+}
+
+.avatar {
+    width: 14%;
+    height: 14%;
+    float: left;
+    margin-right: 6%;
+}
+
+.avatar img {
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.commentContent {
+    width: 80%;
+    float: left;
+    margin-bottom: 20px;
+}
+
+.commentContent h3 {
+    float: right;
+    margin-left: 55px;
+}
+
+.commentContent h3:first-child {
+    float: left;
+    margin-left: 0;
+}
+
+.comments > div:nth-child(4) {
+    margin-left: 15%;
+}
+
+.comments > div:nth-child(4) .commentContent {
+    width: 80%;
+}
+
+.message {
+    padding: 60px 0;
+    float: none;
+    width: 50%;
+    margin: auto;
+}
+
+.message input:nth-child(1) {
+    margin-right: 25px;
+}
+
+.controlsContainer {
+    padding: 50px 0;
+    background-color: #fff;    
+}
+
+.controls {
+    width: 65%;
+    margin: auto;
+    font-family: biryani;
+    text-transform: uppercase;
+    letter-spacing: .5px;
+    font-size: 10pt;
+    color: #000;
+}
+
+.controls span {
+    margin-right: 10px;
+}
+
+.controls a:last-child {
+    float: right;
+}
+
+.controls a:hover {
+    color: #878787;
+}
+
+@media only screen and (max-width : 1200px) {
+    .blogContainer, .comments {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 930px) {
+    .comments h3 {
+        font-size: 8pt;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .blog h2 {
+        font-size: 26pt;
+    }
+    
+    .commentsContainer {
+        padding-top: 100px;
+        background-color: #fff;
+        height: 700px;
+    }
+    
+}
+
+@media only screen and (max-width : 500px) {
+    .message {
+        width: 70%;
+    }
+    .commentsContainer {
+        padding-top: 100px;
+        background-color: #fff;
+        height: 870px;
+    }
+}

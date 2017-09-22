@@ -1,0 +1,52 @@
+/*quicksand*/
+@font-face {
+    font-family: quicksand;
+    font-weight: lighter;
+    src: url(fonts/quicksand/Quicksand-Light.otf);
+}
+
+@font-face {
+    font-family: quicksand;
+    font-weight: normal;
+    src: url(fonts/quicksand/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: quicksand;
+    font-weight: bold;
+    src: url(fonts/quicksand/Quicksand-Bold.otf);
+}
+
+/* montserrat */
+@font-face {
+    font-family: montserrat;
+    font-weight: normal;
+    src: url(fonts/montserrat/montserrat-Regular.otf);
+}
+
+/* asap */
+@font-face {
+    font-family: biryani;
+    font-weight: normal;
+    src: url(fonts/biryani/Biryani-Regular.otf);
+}
+
+@font-face {
+    font-family: biryani;
+    font-weight: bold;
+    src: url(fonts/biryani/Biryani-Bold.otf);
+}
+
+/* playfair display */
+@font-face {
+  font-family: playfair-display;
+  font-style: bold;
+  src: url(fonts/playfair-display/PlayfairDisplay-Bold.otf);
+}
+
+
+@font-face {
+  font-family: playfair-display;
+  font-style: italic;
+  src: url(fonts/playfair-display/PlayfairDisplay-Italic.otf);
+}

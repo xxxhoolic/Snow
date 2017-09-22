@@ -1,0 +1,116 @@
+.container {
+    padding-top: 0px;
+    padding-bottom: 40px;
+    background-color: #f6f6f6;
+    height: 100%;
+}
+
+header {
+    width: 100%;
+    height: 100px;
+    background-image: none;
+}
+
+header nav a {
+    color: #444;
+}
+
+header nav a:hover {
+    color: #000;
+}
+
+#logo {
+    background-image: url(images/logo.svg);
+}
+
+.navContainer {
+    background-color: #fff;
+}
+
+.navContainer.scrolled {
+  background-color: rgba(255,255,255,.9) !important;
+}
+
+.blogs{
+    width: 51%;
+}
+
+.blog {
+    margin-bottom: 50px;
+}
+
+.blogMenu {
+    display: table;
+    margin: 0 auto;
+    padding-top: 50px;
+    margin-bottom: 50px;
+}
+
+#blogMenu {
+    transition-property: none;
+}
+
+.blogMenu a {
+    font-family: biryani;
+    font-size: 8pt;
+    color: #505050;
+}
+
+.blogMenu a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+button {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 13px;
+    height: 15px;
+    width: 15px;
+    background-image: url(images/menu-square.svg);
+    background-size: contain;
+    background-color: transparent;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: .7;
+    transform: rotate(45deg);
+}
+
+.blogMask{
+    height: 100%;
+}
+
+.blog .tag {
+    bottom: 23px;
+}
+
+h2 a {
+    color: #000;
+    font-size: 17pt;
+}
+
+h2 a:visited {
+    color: #000;
+}
+
+h2 a:hover {
+    color: #6b6b6b;
+}
+
+.lineBreak {
+    height: 25px;
+}
+
+@media only screen and (max-width : 930px) {
+    .blogs {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width : 768px) {
+    .blogs {
+        width: 80%;
+    }
+}
